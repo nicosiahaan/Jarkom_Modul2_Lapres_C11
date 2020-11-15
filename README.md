@@ -102,6 +102,7 @@ screenshot:
 -	apache restart
 
 screenshot:
+
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/no%208.jpg)
 
 ### 9.	Awalnya web dapat diakses menggunakan alamat http://semeruyyy.pw/index.php/home. Karena dirasa alamat urlnya kurang bagus, maka (9) diaktifkan mod rewrite agar urlnya menjadi http://semeruyyy.pw/home.
@@ -111,8 +112,16 @@ screenshot:
 -	Edit semeruc11.pw.conf pada PROBOLINGGO
 -	Apache restart
 
+screenshot:
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/9.1.jpg)
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/9.2.jpg)
+
 ### 10.	Web http://penanjakan.semeruyyy.pw akan digunakan untuk menyimpan assets file yang memiliki DocumentRoot pada /var/www/penanjakan.semeruyyy.pw
 -	Edit penanjakan.semeruc11.pw.conf pada PROBOLINGGO
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/10.jpg)
+
 
 
 ### 11.	Pada folder /public dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
@@ -121,16 +130,20 @@ screenshot:
 -	Tambahkan -Indexes pada seluruh folder yang ada di public
 -	Apache restart
 
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/10.jpg)
 
 ### 12.	Untuk mengatasi HTTP Error code 404, disediakan file 404.html pada folder /errors untuk mengganti error default 404 dari Apache.
 -	Tambahkan error document pada penanjakan.semeruc11.pw.conf
 -	Apache restart
 
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/12.jpg)
 
 
 ### 13.	Untuk mengakses file assets javascript awalnya harus menggunakan url http://penanjakan.semeruyyy.pw/public/javascripts. Karena terlalu panjang maka dibuatkan konfigurasi virtual host agar ketika mengakses file assets menjadi http://penanjakan.semeruyyy.pw/js.
 -	Tambahkan Alias "/js" "/var/www/penanjakan.semeruc11.pw/public/javascripts" pada penanjakan.semeruc11.pw.conf
 -	+Indexes pada folder javascripts
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/13.jpg)
 
 
 ### 14.	Untuk web http://gunung.semeruyyy.pw belum dapat dikonfigurasi pada web server karena menunggu pengerjaan website selesai. (14) sedangkan web http://naik.gunung.semeruyyy.pw sudah bisa diakses hanya dengan menggunakan port 8888. DocumentRoot web berada pada /var/www/naik.gunung.semeruyyy.pw.
@@ -138,11 +151,21 @@ screenshot:
 -	Ubah port menjadi 8888
 -	Tambahkan listen 8888 pada file ports pada folder apache2
 
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/kuy%20naik.jpg)
+
+
 ### 15.	Dikarenakan web http://naik.gunung.semeruyyy.pw bersifat private (15) Bibah meminta kamu membuat web http://naik.gunung.semeruyyy.pw agar diberi autentikasi password dengan username “semeru” dan password “kuynaikgunung” supaya aman dan tidak sembarang orang bisa mengaksesnya.
 -	htpasswd -c /etc/apache2/.htpasswd semeru
 -	masukkan password kuynaikgunung
 -	edit naik.gunung.semeruc11.pw.conf
 -	apache restart
+
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/naik.gunung.semeru11.pw8888.jpg)
+dan setelah masuk akan menjadi seperti ini
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/kuy%20naik.jpg)
+
+
 
 
 ### 16.	Karena dirasa kurang profesional, maka setiap Bibah mengunjungi IP PROBOLINGGO akan dialihkan secara otomatis ke http://semeruyyy.pw.
