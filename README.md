@@ -1,2 +1,3 @@
-# Jarkom_Modul2_Lapres_C11
-Lapres Modul 2 Praktikum Jaringan Komputer
+- Aaron Astonvilla Rompis (0511184000131)
+- Nikodemus Siahaan (05111840000151)
+
