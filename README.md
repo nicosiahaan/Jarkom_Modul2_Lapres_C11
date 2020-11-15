@@ -156,6 +156,7 @@ screenshot:
 
 
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/4.png)
+
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/kuy%20naik.jpg)
 
 
@@ -165,6 +166,7 @@ screenshot:
 -	edit naik.gunung.semeruc11.pw.conf
 -	apache restart
 
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/15.png)
 
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/5.png)
 dan setelah masuk akan menjadi seperti ini
@@ -179,3 +181,5 @@ dan setelah masuk akan menjadi seperti ini
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/6.png)
 
 ### 17.	Karena pengunjung pada /var/www/penanjakan.semeruyyy.pw/public/images sangat banyak maka semua request gambar yang memiliki substring “semeru” akan diarahkan menuju semeru.jpg.
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/7.png)
