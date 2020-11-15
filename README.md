@@ -136,6 +136,8 @@ screenshot:
 -	Tambahkan error document pada penanjakan.semeruc11.pw.conf
 -	Apache restart
 
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/2.png)
+
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/12.jpg)
 
 
@@ -143,6 +145,7 @@ screenshot:
 -	Tambahkan Alias "/js" "/var/www/penanjakan.semeruc11.pw/public/javascripts" pada penanjakan.semeruc11.pw.conf
 -	+Indexes pada folder javascripts
 
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/8.png)
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/13.jpg)
 
 
@@ -151,6 +154,8 @@ screenshot:
 -	Ubah port menjadi 8888
 -	Tambahkan listen 8888 pada file ports pada folder apache2
 
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/4.png)
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/kuy%20naik.jpg)
 
 
@@ -161,7 +166,7 @@ screenshot:
 -	apache restart
 
 
-![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/naik.gunung.semeru11.pw8888.jpg)
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/5.png)
 dan setelah masuk akan menjadi seperti ini
 ![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/kuy%20naik.jpg)
 
@@ -170,5 +175,7 @@ dan setelah masuk akan menjadi seperti ini
 
 ### 16.	Karena dirasa kurang profesional, maka setiap Bibah mengunjungi IP PROBOLINGGO akan dialihkan secara otomatis ke http://semeruyyy.pw.
 - Tambahi Redirect Permanent ke semeru
+
+![image](https://github.com/nicosiahaan/Jarkom_Modul2_Lapres_C11/blob/main/img/6.png)
 
 ### 17.	Karena pengunjung pada /var/www/penanjakan.semeruyyy.pw/public/images sangat banyak maka semua request gambar yang memiliki substring “semeru” akan diarahkan menuju semeru.jpg.
